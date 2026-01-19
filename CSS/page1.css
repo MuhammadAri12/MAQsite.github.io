@@ -1,0 +1,71 @@
+@import url('https://fonts.cdnfonts.com/css/spacetype'); 
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+@import url('https://fonts.cdnfonts.com/css/aux-dotbitc');
+@import url('https://fonts.cdnfonts.com/css/clouds');
+
+body {
+        font-family: 'AuX DotBitC', sans-serif;                                                                        
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+}
+
+header {
+        font-family: 'SpaceType', sans-serif;   
+        background-color: #b3ff00;
+        color: #333;
+        padding: 10px;
+        text-align: center;
+    }
+.berita{                                    
+        border-bottom: 1px solid #ddd;
+        padding: 20px 0;
+        display: flex;
+    }
+
+.gambar-berita {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+.judul-berita {
+        text-align: center;
+        margin: 10px;
+        font-weight: bold;
+        color: #b3ff00;
+        margin-bottom: 10px;
+    }
+
+.ringkasan-berita {
+        text-align-last: left;
+        margin: 40px;
+        color: #b3ff00;
+    }
+
+a   {
+        color: #ae00ff;
+        text-decoration: none;
+    }
+
+.copyright {
+    font-family: 'common pixel', sans-serif;
+    color: #ddd;
+    text-align: center;
+}
+
+hr {
+    color: #b3ff00;
+}
+
+marquee {
+    color: #b3ff00;
+    font-family: 'common pixel', sans-serif;
+}
+
+.centered-image {
+    margin: 0 auto;
+    display: block;
+    border-style: dotted;
+    border-color: #b3ff00;
+  }
+  
